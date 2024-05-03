@@ -1,5 +1,6 @@
 const roleModel = require("../models/roleModel");
 const permissionModel = require("../models/permissionModel");
+const userModel = require("../models/userModel");
 const mongoose = require("mongoose");
 
 // get all Roles
@@ -86,13 +87,31 @@ const deleteRole = async (req, res) => {
   }
 
   const Role = await roleModel.findByIdAndDelete(id);
+  if (!Role) {
+    return res.status(400).json({ error: "Try Again Role Error" });
+  }
   const permissions = await permissionModel.find({
     role: Role._id,
   });
+  if (!permissions) {
+    return res.status(400).json({ error: "Try Again Permissions Error" });
+  }
   permissions.forEach(async (permission) => {
     await permissionModel.findByIdAndDelete(permission._id);
   });
+  const users = await userModel.find({ role: Role._id });
+  if (!users) {
+    return res.status(400).json({ error: "Try Again User Error" });
+  }
+  const roleUser = await roleModel.findOne({ role: "user" });
 
+  users.forEach(async (user) => {
+    await userModel.findByIdAndUpdate(
+      user._id,
+      { role: roleUser._id },
+      { new: true }
+    );
+  });
   return res.status(200).json({ role: Role, method: "delete" });
 };
 

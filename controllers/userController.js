@@ -140,6 +140,7 @@ const updateUser = async (req, res) => {
       return res.status(400).json({ error: "Email not valid" });
     }
     if (req.body.email !== user.email) {
+      req.body.email = req.body.email.toLowerCase();
       const exists = await userModel.findOne({ email: req.body.email });
 
       if (exists) {
@@ -170,9 +171,6 @@ const updateUser = async (req, res) => {
 };
 
 const updateOldUser = async (req, res) => {
-  if (!req.user.permission.Patch) {
-    return res.status(400).json({ error: "Not Authorized" });
-  }
   const { id } = req.params;
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
@@ -187,6 +185,7 @@ const updateOldUser = async (req, res) => {
       return res.status(400).json({ error: "Email not valid" });
     }
     if (req.body.email !== user.email) {
+      req.body.email = req.body.email.toLowerCase();
       const exists = await userModel.findOne({ email: req.body.email });
 
       if (exists) {

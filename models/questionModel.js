@@ -13,10 +13,6 @@ const questionModel = new Schema(
       required: true,
       enum: ["Dropdown", "Text", "Number"],
     },
-    subQuestions: {
-      type: [Schema.Types.ObjectId],
-      ref: "Question",
-    },
   },
   { timestamps: true }
 );
