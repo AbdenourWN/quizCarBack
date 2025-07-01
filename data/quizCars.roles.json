@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "role": "admin",
+  "createdAt": {
+    "$date": "2024-04-16T11:27:55.659Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:27:55.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "role": "user",
+  "createdAt": {
+    "$date": "2024-04-16T11:28:01.473Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:28:01.473Z"
+  },
+  "__v": 0
+}]

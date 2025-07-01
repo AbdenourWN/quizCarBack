@@ -1,3 +1,5 @@
+// server.js
+
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
@@ -12,11 +14,12 @@ const featureRoutes = require("./routes/featureRoute");
 const roleRoutes = require("./routes/roleRoute");
 const permissionRoutes = require("./routes/permissionRoute");
 const WebSocket = require("ws");
-
 const mongoose = require("mongoose");
+const seedDatabase = require('./seed'); // <-- 1. IMPORT THE SEEDER
+
+const wss = new WebSocket.Server({ noServer: true });
 
 const app = express();
-const wss = new WebSocket.Server({ noServer: true });
 
 app.use(express.json());
 
@@ -41,8 +44,12 @@ app.use((req, res, next) => {
 // connect to db
 mongoose
   .connect(process.env.MONGO_URI)
-  .then(() => {
+  .then(async () => { // <-- 2. MAKE THE CALLBACK ASYNC
     console.log("connected to database");
+
+    // <-- 3. CALL AND AWAIT THE SEEDING FUNCTION
+    await seedDatabase();
+
     // Create an HTTP server
     const server = app.listen(process.env.PORT, () => {
       console.log("listening for requests on port", process.env.PORT);

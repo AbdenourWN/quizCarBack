@@ -1,0 +1,104 @@
+[{
+  "_id": {
+    "$oid": "661e5c6770486a963441fca2"
+  },
+  "feature": "brand",
+  "createdAt": {
+    "$date": "2024-04-16T11:09:27.466Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:09:27.466Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e5c7070486a963441fca4"
+  },
+  "feature": "model",
+  "createdAt": {
+    "$date": "2024-04-16T11:09:36.920Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:09:36.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e5c7a70486a963441fca6"
+  },
+  "feature": "version",
+  "createdAt": {
+    "$date": "2024-04-16T11:09:46.624Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:09:46.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e5cb070486a963441fca8"
+  },
+  "feature": "question",
+  "createdAt": {
+    "$date": "2024-04-16T11:10:40.811Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:10:40.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e5cb570486a963441fcaa"
+  },
+  "feature": "quiz",
+  "createdAt": {
+    "$date": "2024-04-16T11:10:45.794Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:10:45.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e5d1970486a963441fcac"
+  },
+  "feature": "role",
+  "createdAt": {
+    "$date": "2024-04-16T11:12:25.028Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:12:25.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e5d4270486a963441fcae"
+  },
+  "feature": "permission",
+  "createdAt": {
+    "$date": "2024-04-16T11:13:06.348Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T11:13:06.348Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fd6aaa4ef898acf4aa574"
+  },
+  "feature": "user",
+  "createdAt": {
+    "$date": "2024-04-17T14:03:22.056Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T14:03:22.056Z"
+  },
+  "__v": 0
+}]

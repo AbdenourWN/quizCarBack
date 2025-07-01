@@ -1,0 +1,352 @@
+[{
+  "_id": {
+    "$oid": "661e6b737c1912c2a76aa142"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5c6770486a963441fca2"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:13:39.019Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T16:35:59.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e6bb37c1912c2a76aa144"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5c7070486a963441fca4"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:14:43.219Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T12:14:43.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e6bbd7c1912c2a76aa146"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5c7a70486a963441fca6"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:14:53.121Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T12:14:53.121Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e6bc47c1912c2a76aa148"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5cb070486a963441fca8"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:15:00.041Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T12:15:00.041Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e6bca7c1912c2a76aa14a"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5cb570486a963441fcaa"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:15:06.962Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T12:15:06.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e6bd17c1912c2a76aa14c"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5d1970486a963441fcac"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:15:13.901Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T12:15:13.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e6bd77c1912c2a76aa14e"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661e5d4270486a963441fcae"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:15:19.250Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T12:15:19.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e82497c1912c2a76aa150"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5c6770486a963441fca2"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:51:05.839Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T12:06:16.828Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e82517c1912c2a76aa152"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5c7070486a963441fca4"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:51:13.211Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-02T14:59:20.571Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e82587c1912c2a76aa154"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5c7a70486a963441fca6"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:51:20.118Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T13:51:20.118Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e825e7c1912c2a76aa156"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5cb070486a963441fca8"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:51:26.475Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T13:51:26.475Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e82957c1912c2a76aa158"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5cb570486a963441fcaa"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:52:21.107Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T12:06:21.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e82b97c1912c2a76aa15a"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5d1970486a963441fcac"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:52:57.665Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-16T13:52:57.665Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661e82c07c1912c2a76aa15c"
+  },
+  "Get": false,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661e5d4270486a963441fcae"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T13:53:04.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-01T15:36:09.731Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fd6ef129ce6a6b18189ed"
+  },
+  "Get": true,
+  "Post": true,
+  "Delete": true,
+  "Patch": true,
+  "role": {
+    "$oid": "661e60bbeaa0bbc8cfc7df51"
+  },
+  "feature": {
+    "$oid": "661fd6aaa4ef898acf4aa574"
+  },
+  "createdAt": {
+    "$date": "2024-04-16T12:15:19.252Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T14:04:31.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fd756129ce6a6b18189f0"
+  },
+  "Get": true,
+  "Post": false,
+  "Delete": false,
+  "Patch": false,
+  "role": {
+    "$oid": "661e60c1eaa0bbc8cfc7df53"
+  },
+  "feature": {
+    "$oid": "661fd6aaa4ef898acf4aa574"
+  },
+  "createdAt": {
+    "$date": "2024-04-17T14:06:14.726Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-08T12:06:28.214Z"
+  },
+  "__v": 0
+}]
