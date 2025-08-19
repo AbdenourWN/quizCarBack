@@ -26,19 +26,6 @@
 },
 {
   "_id": {
-    "$oid": "661e5c7a70486a963441fca6"
-  },
-  "feature": "version",
-  "createdAt": {
-    "$date": "2024-04-16T11:09:46.624Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-16T11:09:46.624Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "661e5cb070486a963441fca8"
   },
   "feature": "question",
