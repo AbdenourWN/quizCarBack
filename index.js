@@ -30,6 +30,14 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.status(200).json({ 
+    message: "Welcome to the QuizCars API!",
+    status: "ok",
+    documentation: "Please refer to the project documentation for available endpoints."
+  });
+});
+
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/brand", brandRoutes);
