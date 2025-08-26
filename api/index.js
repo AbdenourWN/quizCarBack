@@ -3,15 +3,15 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 
-const authRoutes = require("./routes/authRoute");
-const userRoutes = require("./routes/userRoute");
-const brandRoutes = require("./routes/brandRoute");
-const modelRoutes = require("./routes/modelRoute");
-const quizRoutes = require("./routes/quizRoute");
-const questionRoutes = require("./routes/questionRoute");
-const featureRoutes = require("./routes/featureRoute");
-const roleRoutes = require("./routes/roleRoute");
-const permissionRoutes = require("./routes/permissionRoute");
+const authRoutes = require("../routes/authRoute");
+const userRoutes = require("../routes/userRoute");
+const brandRoutes = require("../routes/brandRoute");
+const modelRoutes = require("../routes/modelRoute");
+const quizRoutes = require("../routes/quizRoute");
+const questionRoutes = require("../routes/questionRoute");
+const featureRoutes = require("../routes/featureRoute");
+const roleRoutes = require("../routes/roleRoute");
+const permissionRoutes = require("../routes/permissionRoute");
 
 const app = express();
 
