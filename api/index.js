@@ -6,12 +6,12 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 // --- Import all your route handlers ---
-const authRoutes = require("./routes/authRoute");
-const userRoutes = require("./routes/userRoute");
-const brandRoutes = require("./routes/brandRoute");
-const modelRoutes = require("./routes/modelRoute");
-const quizRoutes = require("./routes/quizRoute");
-const questionRoutes = require("./routes/questionRoute");
+const authRoutes = require("../routes/authRoute");
+const userRoutes = require("../routes/userRoute");
+const brandRoutes = require("../routes/brandRoute");
+const modelRoutes = require("../routes/modelRoute");
+const quizRoutes = require("../routes/quizRoute");
+const questionRoutes = require("../routes/questionRoute");
 
 const app = express();
 
