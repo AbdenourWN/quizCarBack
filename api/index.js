@@ -1,17 +1,17 @@
-// /api/index.js
-
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 
-// --- Import all your route handlers ---
-const authRoutes = require("../routes/authRoute");
-const userRoutes = require("../routes/userRoute");
-const brandRoutes = require("../routes/brandRoute");
-const modelRoutes = require("../routes/modelRoute");
-const quizRoutes = require("../routes/quizRoute");
-const questionRoutes = require("../routes/questionRoute");
+const authRoutes = require("./routes/authRoute");
+const userRoutes = require("./routes/userRoute");
+const brandRoutes = require("./routes/brandRoute");
+const modelRoutes = require("./routes/modelRoute");
+const quizRoutes = require("./routes/quizRoute");
+const questionRoutes = require("./routes/questionRoute");
+const featureRoutes = require("./routes/featureRoute");
+const roleRoutes = require("./routes/roleRoute");
+const permissionRoutes = require("./routes/permissionRoute");
 
 const app = express();
 
@@ -44,6 +44,9 @@ app.use("/api/brand", brandRoutes);
 app.use("/api/model", modelRoutes);
 app.use("/api/quiz", quizRoutes);
 app.use("/api/question", questionRoutes);
+app.use("/api/feature", featureRoutes);
+app.use("/api/role", roleRoutes);
+app.use("/api/permission", permissionRoutes);
 
 mongoose
   .connect(process.env.MONGO_URI)
