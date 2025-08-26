@@ -53,14 +53,11 @@ const createQuiz = async (req, res) => {
   if (!req.user.permission.Post) {
     return res.status(400).json({ error: "Not Authorized" });
   }
-  const { name, type, quizQuestions, result, createdBy } = req.body;
+  const { name, quizQuestions, result, createdBy } = req.body;
   let emptyFields = [];
 
   if (!name) {
     emptyFields.push("name");
-  }
-  if (!type) {
-    emptyFields.push("type");
   }
   if (!quizQuestions) {
     emptyFields.push("quizQuestions");
@@ -80,7 +77,6 @@ const createQuiz = async (req, res) => {
   try {
     const newQuiz = await quizModel.create({
       name,
-      type,
       quizQuestions,
       result,
       createdBy,
@@ -118,9 +114,6 @@ const updateQuiz = async (req, res) => {
   const { id } = req.params;
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return res.status(400).json({ error: "No such Quiz" });
-  }
-  if (req.body.type) {
-    return res.status(400).json({ error: "Cannot Update Type Of Quiz" });
   }
   if (req.body.createdBy) {
     return res.status(400).json({ error: "Cannot Update createdBy Of Quiz" });

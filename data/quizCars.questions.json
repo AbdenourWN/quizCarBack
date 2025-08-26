@@ -1,238 +1,100 @@
-[{
-  "_id": {
-    "$oid": "66212da77740b4e095622fc9"
+[
+  {
+    "_id": {
+      "$oid": "66212da77740b4e095622fc9"
+    },
+    "question": "Marque",
+    "type": "Dropdown",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.181Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-18T14:26:47.181Z"
+    },
+    "__v": 0
   },
-  "question": "Marque",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.181Z"
+  {
+    "_id": {
+      "$oid": "66212da77740b4e095622fcb"
+    },
+    "question": "Modele",
+    "type": "Dropdown",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.182Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-18T14:26:47.182Z"
+    },
+    "__v": 0
   },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.181Z"
+  {
+    "_id": {
+      "$oid": "66212da77740b4e095622fe4"
+    },
+    "question": "Puissance fiscale (cv)",
+    "type": "Number",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.200Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-18T14:26:47.200Z"
+    },
+    "__v": 0
   },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fcb"
+  {
+    "_id": {
+      "$oid": "66212da77740b4e095622fd8"
+    },
+    "question": "Kilometrage",
+    "type": "Number",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.192Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-18T14:26:47.192Z"
+    },
+    "__v": 0
   },
-  "question": "Modele",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.182Z"
+  {
+    "_id": {
+      "$oid": "6625452c88a28a03f26986b9"
+    },
+    "question": "Annee",
+    "type": "Number",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.230Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-21T16:56:12.172Z"
+    },
+    "__v": 0
   },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.182Z"
+  {
+    "_id": {
+      "$oid": "66212da77740b4e095622fdc"
+    },
+    "question": "Energie",
+    "type": "Dropdown",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.194Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-18T14:26:47.194Z"
+    },
+    "__v": 0
   },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fd2"
-  },
-  "question": "Version",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.187Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.187Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fd8"
-  },
-  "question": "Kilometrage",
-  "type": "Number",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.192Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.192Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fdc"
-  },
-  "question": "Energie",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.194Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.194Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fde"
-  },
-  "question": "Boite vitesse",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.195Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.195Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fe4"
-  },
-  "question": "Puissance fiscale (cv)",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.200Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.200Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fe7"
-  },
-  "question": "Transmission",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.202Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.202Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622feb"
-  },
-  "question": "Carrosserie",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.206Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.206Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622fee"
-  },
-  "question": "Couleur exterieur",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.208Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.208Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622ff3"
-  },
-  "question": "Couleur interieur",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.214Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.214Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622ffb"
-  },
-  "question": "Sallerie",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.218Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.218Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095622ffd"
-  },
-  "question": "Nombre de places",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.220Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.220Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095623005"
-  },
-  "question": "Nombre de portes",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.226Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.226Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "66212da77740b4e095623007"
-  },
-  "question": "Cylindre (ML)",
-  "type": "Number",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.228Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-18T14:26:47.228Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6625452c88a28a03f26986b9"
-  },
-  "question": "Age",
-  "type": "Number",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.230Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-21T16:56:12.172Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "662d62501e163a3032dc0cff"
-  },
-  "question": "Condition",
-  "type": "Dropdown",
-  "createdAt": {
-    "$date": "2024-04-18T14:26:47.232Z"
-  },
-  "updatedAt": {
-    "$date": "2024-04-21T16:56:12.172Z"
-  },
-  "__v": 0
-}]
+  {
+    "_id": {
+      "$oid": "66212da77740b4e095622fde"
+    },
+    "question": "Boite vitesse",
+    "type": "Dropdown",
+    "createdAt": {
+      "$date": "2024-04-18T14:26:47.195Z"
+    },
+    "updatedAt": {
+      "$date": "2024-04-18T14:26:47.195Z"
+    },
+    "__v": 0
+  }
+]

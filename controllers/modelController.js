@@ -1,6 +1,5 @@
 const modelModel = require("../models/modelModel");
 const mongoose = require("mongoose");
-const versionModel = require("../models/versionModel");
 const brandModel = require("../models/brandModel");
 
 // get all Models
@@ -90,11 +89,6 @@ const deleteModel = async (req, res) => {
   if (!Model) {
     return res.status(400).json({ error: "No such Model" });
   }
-  const versions = await versionModel.find({ model: Model._id });
-  versions.forEach(async (version) => {
-    await versionModel.findByIdAndDelete(version._id);
-  });
-
   res.status(200).json({ model: Model, method: "delete" });
 };
 

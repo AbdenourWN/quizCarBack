@@ -1,6 +1,5 @@
 const brandModel = require("../models/brandModel");
 const modelModel = require("../models/modelModel");
-const versionModel = require("../models/versionModel");
 const mongoose = require("mongoose");
 
 // get all Brands
@@ -84,10 +83,6 @@ const deleteBrand = async (req, res) => {
   }
   const models = await modelModel.find({ brand: brand._id });
   models.forEach(async (model) => {
-    const versions = await versionModel.find({ model: model._id });
-    versions.forEach(async (version) => {
-      await versionModel.findByIdAndDelete(version._id);
-    });
     await modelModel.findByIdAndDelete(model._id);
   });
 

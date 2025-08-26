@@ -29,7 +29,7 @@ const requireAuth = async (req, res, next, featureName) => {
     let permission;
     for (const per of permissions) {
       const feature = await featureModel.findById(per.feature);
-      if (feature.feature === featureName) {
+      if (feature?.feature === featureName) {
         permission = per;
         break;
       }
@@ -37,7 +37,7 @@ const requireAuth = async (req, res, next, featureName) => {
     req.user = { user, role, permission };
     next();
   } catch (error) {
-    res.status(401).json({ error: "Request is not authorized" });
+    res.status(401).json({ error: "Request is not authorized", err: error.message });
   }
 };
 

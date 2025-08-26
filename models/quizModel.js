@@ -8,11 +8,6 @@ const quizModel = new Schema(
       type: String,
       required: true,
     },
-    type: {
-      type: String,
-      required: true,
-      enum: ["Fast", "Slow"],
-    },
     result: {
       type: Number,
       required: true,

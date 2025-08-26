@@ -8,7 +8,6 @@ const bcrypt = require('bcrypt');
 const User = require('./models/userModel');
 const Brand = require('./models/brandModel');
 const Model = require('./models/modelModel');
-const Version = require('./models/versionModel');
 const Question = require('./models/questionModel');
 const Feature = require('./models/featureModel');
 const Role = require('./models/roleModel');
@@ -121,7 +120,6 @@ const seedDatabase = async () => {
   // Now seed data that has dependencies
   await seedCollection(Permission, 'quizCars.permissions.json', 'Permissions');
   await seedCollection(Model, 'quizCars.models.json', 'Models');
-  await seedCollection(Version, 'quizCars.versions.json', 'Versions');
 
   // Finally, seed the admin user who depends on the 'admin' role
   await seedAdminUser();
